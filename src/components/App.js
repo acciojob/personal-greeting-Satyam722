@@ -1,13 +1,12 @@
-
-import React from "react";
-import './../styles/App.css';
+// Example App.js
+import React from 'react';
+import PersonalizedGreeting from './PersonalizedGreeting'; 
 
 const App = () => {
-  return (
-    <div>
-        {/* Do not remove the main div */}
-    </div>
-  )
-}
-
-export default App
+    return (
+        <div className="App">
+            <PersonalizedGreeting />
+        </div>
+    );
+};
+export default App;
